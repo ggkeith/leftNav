@@ -3,7 +3,7 @@
 }
 .body-content {
   margin-left: 14em;
-  margin-top: 2.5em;
+  margin-top: 0.5em;
   width: 85%;
 }
 
@@ -69,5 +69,23 @@ header a:hover {
   margin-left: -0.5em;
   font-size: large;
   color: white;
-  
+}
+
+.pdsa-sn-wrapper ul .pdsa-sn-brand a {
+  color: white;
+}
+
+.pdsa-sn-wrapper ul .pdsa-sn-brand a:hover {
+  color: light blue;
+  background: none;
+}
+
+@media all and (max-width: 768px) {
+  .pdsa-sn-wrapper {
+    left: -13em;
+  }
+  .body-content {
+    margin-left: 0em;
+  }
+
 }
