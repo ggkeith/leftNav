@@ -6,33 +6,28 @@
   margin-top: 0.5em;
   width: 85%;
 }
-
 header {
   padding: 0.7em;
   background-color: gray;
   color: white;
   font-size: large;
 }
-
 header a {
   background-color: gray;
-  color:white;
+  color: white;
   text-decoration: none;
 }
-
 header a:hover {
   text-decoration: none;
 }
-
 .pdsa-sn-wrapper {
-  position:absolute;
+  position: absolute;
   top: 3.6em;
   left: 0em;
   width: 13em;
   height: 100%;
   background-color: black;
 }
-
 .pdsa-sn-wrapper ul {
   width: 11em;
   list-style: none;
@@ -40,46 +35,36 @@ header a:hover {
   margin-left: 1em;
   padding: 0em;
 }
-
 .pdsa-sn-wrapper ul li {
   margin-top: 1em;
   margin-bottom: 0.5em;
 }
-
 .pdsa-sn-wrapper ul li a {
   color: #999999;
   text-decoration: none;
   padding: 0.5em;
 }
-
 .pdsa-sn-wrapper ul li a:hover {
   text-decoration: none;
   color: #fff;
 }
-
-.pdsa-sn-wrapper ul li a:active,
-.pdsa-sn-wrapper ul li a:focus {
+.pdsa-sn-wrapper ul li a:active, .pdsa-sn-wrapper ul li a:focus {
   text-decoration: none;
   outline: none;
   color: red;
 }
-
-
 .pdsa-sn-wrapper ul .pdsa-sn-brand {
   margin-left: -0.5em;
   font-size: large;
   color: white;
 }
-
 .pdsa-sn-wrapper ul .pdsa-sn-brand a {
   color: white;
 }
-
 .pdsa-sn-wrapper ul .pdsa-sn-brand a:hover {
   color: light blue;
   background: none;
 }
-
 @media all and (max-width: 768px) {
   .pdsa-sn-wrapper {
     left: -13em;
@@ -87,5 +72,4 @@ header a:hover {
   .body-content {
     margin-left: 0em;
   }
-
 }
